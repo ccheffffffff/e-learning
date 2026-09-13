@@ -1,0 +1,23 @@
+{
+  "name": "emc-academy",
+  "version": "1.0.0",
+  "description": "EMC Academy e-learning platform with YouTube and Google Drive lesson resources",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^11.7.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  }
+}
